@@ -1,0 +1,30 @@
+title: Cirrusboard Wiki
+description: Hobbyist forum software powering Voxelmanip Forums and more.
+
+repo: https://github.com/Cirrusboard/site
+
+exclude:
+  - README.md
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
+
+sass:
+  style: compressed
+  sourcemap: never
+
+collections:
+  wiki:
+    permalink: /wiki/:path
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-seo-tag
