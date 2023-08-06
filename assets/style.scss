@@ -107,3 +107,24 @@ pre {
 	line-height: 1.5;
 	tab-size: 4;
 }
+
+
+$mtgreen: #167000;
+.adorable-button {
+	background-color: $mtgreen;
+	display: inline-block;
+	font-weight: bold;
+	color: white;
+	font-size: 1.75em;
+	padding: 10px 30px;
+	margin: 25px 0;
+
+	&:hover {
+		background-color: lighten($mtgreen, 5%);
+		text-decoration: none;
+	}
+	&:active {
+		background-color: darken($mtgreen, 10%);
+		color: white;
+	}
+}

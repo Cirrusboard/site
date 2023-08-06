@@ -15,5 +15,5 @@ Defines the text in the FAQ. The default sample FAQ provides some default conten
 The format is a single variable named `$faq`, an array of FAQ entries of which have the fields `id`, `title` and `content`. See the sample configuration for an example of how to lay it out.
 
 There are some predefined variables you can make use of inside the FAQ:
-- `$smileytable`: Table with the smilies currently defined. (TODO)
+- `$smileytable`: Table with the smilies currently defined.
 - `$nctable`: Table with nickname colours. Needs to be enclosed inside table tags.

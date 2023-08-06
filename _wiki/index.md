@@ -12,12 +12,10 @@ It was originally written to support the [Voxelmanip Forums](https://forum.voxel
 
 It is inspired by the Acmlmboard family of forum software, reimplementing various features of Acmlmboard-style forums such as post layouts, while improving upon code quality and security.
 
----
+The source code of the forum software is hosted and developed on [GitHub](https://github.com/rollerozxa/Cirrusboard). The Cirrusboard Wiki contains various information about configuring and customising your forum. For a full list of pages that currently exist see [the Page Index](/wiki/Special:PageIndex).
 
-## [Download](Download)
+<a class="adorable-button" href="Download">Download & Installation</a>
 
----
 
-The source code of the forum software is hosted and developed on [GitHub](https://github.com/rollerozxa/Cirrusboard).
-
-The Cirrusboard Wiki contains various information about configuring and customising your forum. For a full list of pages that currently exist see [the Page Index](/wiki/Special:PageIndex).
+## Cirrusboard is used by:
+[![Voxelmanip Forums](/images/voxelmanip_forums.png)](https://forum.voxelmanip.se)
