@@ -6,7 +6,7 @@ title: Download
 
 
 ## System requirements
-Some kind of web server with PHP and MySQL/MariaDB is needed. At least PHP 7.4 is required, but the latest version of PHP is recommended. Other than that Cirrusboard does not have any requirements. For more info see the [System requirements](System_Requirements) page.
+NGINX with PHP-FPM and MySQL/MariaDB is needed (Apache is unsupported). At least PHP 7.4 is required, but the latest version of PHP is recommended. Other than that Cirrusboard does not have any requirements. For more info see the [System requirements](System_Requirements) page.
 
 ## Distribution package
 To install Cirrusboard, download the latest distribution package from GitHub CI, which has Composer dependencies and the default styling already compiled out of the box.
