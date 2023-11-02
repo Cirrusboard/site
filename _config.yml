@@ -1,4 +1,4 @@
-title: Cirrusboard Wiki
+title: Cirrusboard
 description: Hobbyist forum software powering Voxelmanip Forums and more.
 
 repo: https://github.com/Cirrusboard/site
@@ -17,7 +17,7 @@ sass:
 
 collections:
   wiki:
-    permalink: /wiki/:path
+    permalink: /:path
     output: true
 
 defaults:
@@ -28,3 +28,4 @@ defaults:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
