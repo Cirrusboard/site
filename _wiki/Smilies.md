@@ -9,6 +9,8 @@ The smiley definition is an array of smilies called `$smilies` in the config fil
 
 ```php
 $smilies = [
-	':)' => 'assets/smilies/smile.png',
+	':)' => 'smilies/smile.png',
 ];
 ```
+
+To install smilies from the repository, you would copy the PHP array code into your configuration file, and copy the smiley images into `static/smilies/`.

@@ -8,7 +8,6 @@ The configuration files are PHP files, which mean you can configure things progr
 ## `config.php`
 Main configuration file.
 
-
 ## `faq.php`
 Defines the text in the FAQ. The default sample FAQ provides some default content, including a sane set of rules and policies.
 
