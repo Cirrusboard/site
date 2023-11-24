@@ -28,7 +28,7 @@ Most if not all desktop web browsers come with developer tools (also known as "I
 ## Post table classes
 In order to allow styling of the entire post table, each cell has its own user-unique class to it, suffixed with the user's ID. This image shows the class names of each cell in the post table.
 
-![](/images/post_layout_table_trans.png)
+![](/images/post_layout_table_trans.webp)
 
 X represents your user ID, which can be found in the URL of your profile page. As an example, if your user ID is 6 and you'd want to change the font in your sidebar to monospace, you would write your CSS as such:
 
