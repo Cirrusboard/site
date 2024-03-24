@@ -1,7 +1,6 @@
 ---
 title: Cirrusboard
 permalink: /
-redirect_from: /wiki/
 ---
 {% include thumbnail.html
 	src="/images/vmf_preview.webp"
