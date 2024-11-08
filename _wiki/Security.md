@@ -21,4 +21,4 @@ No `eval()` (more like `evil()`!) is used in the code.
 ## Disclaimer
 No software is perfect, and mistakes may happen, whether it be caused by your configuration or Cirrusboard itself. As stated in the license Cirrusboard is provided **AS IS** without any warranty.
 
-If you believe you have found a vulnerability in the Cirrusboard software, please responsibly disclose it privately to [ROllerozxa](https://voxelmanip.se/about/#contact).
+If you believe you have found a vulnerability in the Cirrusboard software, please responsibly disclose it privately to [ROllerozxa](https://voxelmanip.se/contact/).

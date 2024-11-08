@@ -17,5 +17,5 @@ The source code of the forum software is hosted and developed on [GitHub](https:
 <a class="adorable-button" href="Download">Download & Installation</a>
 
 
-## Cirrusboard is used by:
+<h2 style="border:0">Cirrusboard is used by:</h2>
 [![Voxelmanip Forums](/images/voxelmanip_forums.webp)](https://forum.voxelmanip.se)

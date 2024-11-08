@@ -32,12 +32,20 @@ ul li, ol li {
 	margin-bottom: 0.7em;
 }
 
-h1 { margin: 0; font-size: 1.9em; border-bottom: 1px solid #adadad; }
+h1 { margin: 0; font-size: 1.9em; }
 h2 { font-size: 1.50em; }
-h3 { font-size: 1.17em; }
-h4 { font-size: 1.00em; }
-h5 { font-size: 0.83em; }
-h6 { font-size: 0.67em; }
+h3 { font-size: 1.35em; }
+h4 { font-size: 1.20em; }
+h5 { font-size: 1.00em; }
+h6 { font-size: 0.85em; }
+
+h1,h2,h3,h4 {
+	border-bottom: 1px solid #adadad;
+}
+
+h2,h3,h4 {
+	margin-bottom: 0;
+}
 
 
 /// Layout \\\

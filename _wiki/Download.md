@@ -1,9 +1,8 @@
 ---
 title: Download
 ---
-## *NOTE:* Currently Cirrusboard is in development. It is not recommended to be used in a production environment yet, the database schema is subject to change, and does not have all features implemented yet.
 
-
+> ***NOTE:* Currently Cirrusboard is in development. It is not recommended to be used in a production environment yet, the database schema is subject to change, and does not have all features implemented yet.**
 
 ## System requirements
 Some kind of web server with PHP and MySQL/MariaDB is needed. At least PHP 7.4 is required, but the latest version of PHP is recommended. Other than that Cirrusboard does not have any requirements. For more info see the [System requirements](System_Requirements) page.
