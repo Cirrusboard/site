@@ -7,14 +7,18 @@ title: Download
 ## System requirements
 Some kind of web server with PHP and MySQL/MariaDB is needed. At least PHP 7.4 is required, but the latest version of PHP is recommended. Other than that Cirrusboard does not have any requirements. For more info see the [System requirements](System_Requirements) page.
 
-## Distribution package
+## Obtaining Cirrusboard
+
+### Distribution package
 To install Cirrusboard, download the latest distribution package from GitHub CI, which has Composer dependencies and the default styling already compiled out of the box.
 
-**(there should be some sort of download link here. for the time being you can check [here](https://github.com/Cirrusboard/Cirrusboard/actions) to grab the latest artifact)**
+<a class="adorable-button" style="margin-bottom:0" href="https://github.com/Cirrusboard/Cirrusboard/releases/download/latest/cirrus-dist.zip">Download cirrus-dist.zip</a>
+
+[Details](https://github.com/Cirrusboard/Cirrusboard/releases/tag/latest)
 
 This package is ready to be pushed onto e.g. a shared hosting provider that doesn't support shell access.
 
-## Clone source repository
+### Clone source repository
 For more advanced users, and those who may want to modify the source, it's recommended to clone the source repository:
 
 ```
@@ -24,8 +28,8 @@ git clone https://github.com/Cirrusboard/Cirrusboard
 When doing this, you will have to manually install Composer dependencies and compile the default styling. If you're putting Cirrusboard on a shared hosting provider without shell access, you will need to do this preparation before pushing it onto production.
 
 ```
-composer update -o
-bash tools/compile-scss-sassc.sh
+composer install -o
+./tools/compile-scss-sassc.sh
 ```
 
 ## Installing
